@@ -4,7 +4,7 @@
   <version>1.0</version>
   <vendor email="galtsowoleg@gmail.com" url="https://github.com/ogaltsov">Oleg Galtsov</vendor>
 
-  <description>Dark and ominous pastel theme/editor schema for your IDE </description>
+  <description>Dark and ominous pastel theme for JetBrains IDEs.</description>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
   <idea-version since-build="173.0"/>
