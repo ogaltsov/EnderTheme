@@ -1,0 +1,25 @@
+<idea-plugin>
+  <id>ru.galtsov</id>
+  <name>EnderTheme</name>
+  <version>1.0</version>
+  <vendor email="galtsowoleg@gmail.com" url="https://github.com/ogaltsov">Oleg Galtsov</vendor>
+
+  <description>Dark and ominous pastel theme/editor schema for your IDE </description>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="69d31d10-8742-4c1c-b184-be66c9b43a2a" path="/ender-theme.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
